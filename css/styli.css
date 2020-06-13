@@ -127,24 +127,64 @@ nav a:hover {
 .produtos li:hover {
     border-color: #c78c19;
 }
-    
-    .produtos li:hover h2 {
-        font-size: 30px;
-    }
 
-    footer {
-        margin: 40px auto 0;
+.produtos li:hover h2 {
+    font-size: 30px;
+}
+
+footer {
+    margin: 40px auto 0;
+    text-align: center;
+    background: #f0f0f5;
+    padding: 40px 0;
+    height: 250px;
+}
+
+footer img {
+    width: 250px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #222222;
+}
+
+@media screen and (max-width:768px) {
+    #se-produtos h2, #sobre div .titulo-principal {
+        font-size: 33px;
+        margin: 0 1em 5%;
+    }
+    #sobre div p {
+        width: 100%;
+        display: block;
+        text-align: justify;
+        font-size: 16px;
+        margin: 1.2em auto;
+    }
+    #sobre div .sobre-img {
+        width: 79%;
+        display: block;
+        margin: 0 auto;
+    }
+    #se-produtos .produtos li {
+        display: block;
+        width: 80%;
+        margin: 2em auto;
+    }
+}
+
+@media screen and (max-width:425px) {
+    header .caixa nav {
+        position: static;
+    }
+    header .caixa {
+        position: static;
+    }
+    header .caixa img {
+        margin: 0 auto;
+        display: block;
+    }
+    header .caixa nav {
         text-align: center;
-        background: #f0f0f5;
-        padding: 40px 0;
-        height: 250px;
     }
-    
-    footer img {
-        width: 250px;
-    }
-    
-    .copyright {
-        font-size: 13px;
-        color: #222222;
-    }
+}
