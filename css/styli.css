@@ -188,3 +188,25 @@ footer img {
         text-align: center;
     }
 }
+
+@media screen and (max-width:375px) {
+    header .caixa img {
+        width: 75%;
+    }
+    .caixa nav a {
+        font-size: 18px;
+    }
+    #sobre div .titulo-principal {
+        font-size: 20px;
+    }
+    #sobre div p {
+        font-size: 14px;
+        padding: 5px;
+    }
+    #se-produtos h2 {
+        font-size: 25px;
+    }
+    #se-produtos .produtos img {
+        width: 80%;
+    }
+}
