@@ -209,4 +209,7 @@ footer img {
     #se-produtos .produtos img {
         width: 80%;
     }
+    #se-produtos .produtos p {
+        margin: 30px;
+    }
 }
